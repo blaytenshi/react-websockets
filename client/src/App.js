@@ -13,7 +13,7 @@ class App extends React.Component {
             console.log('connection opened!');
             ws.send(
                 JSON.stringify({
-                    event: 'events',
+                    event: 'ben',
                     data: 'something'
                 })
             );
